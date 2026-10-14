@@ -20,8 +20,7 @@ four assemblies, one per package of the module: `errgroup`, `semaphore`, `single
 no root package.
 
 unofficial go2cs C# conversion of golang.org/x/sync v0.19.0, built on the Go 1.24.13 standard library; not affiliated
-with or endorsed by The Go Authors or the Go project. Security: that standard library carries no Go security fixes
-issued after Go 1.24.13; review before any production use.
+with or endorsed by The Go Authors or the Go project. Security: the Go standard library this package is built on includes no Go security fixes released after Go 1.24.13; review before any production use.
 
 ## What is here
 
