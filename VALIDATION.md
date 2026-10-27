@@ -1,4 +1,4 @@
-> unofficial go2cs C# conversion of golang.org/x/sync v0.19.0, built on the Go 1.24.13 standard library; not affiliated with or endorsed by The Go Authors or the Go project. Security: that standard library carries no Go security fixes issued after Go 1.24.13; review before any production use.
+> unofficial go2cs C# conversion of golang.org/x/sync v0.19.0, built on the Go 1.26.10 standard library; not affiliated with or endorsed by The Go Authors or the Go project. Security: the Go standard library this package is built on includes no Go security fixes released after Go 1.26.10; review before any production use.
 
 # `golang.org/x/sync` — module validation summary
 
@@ -9,10 +9,10 @@ Both sides of every reading were built with `-tags purego,math_big_pure_go,safe`
 
 | Package | Matched | Disclosed | Input digest | Proof |
 |:--|--:|--:|:--|:--|
-| `golang.org/x/sync/errgroup` | 5 | 0 | `sha256-89d3a237dfa62e0d7fd18ef891bed649abcf482b840aeb26e7eafa447df7d41a` | [errgroup.md](errgroup.md) |
-| `golang.org/x/sync/semaphore` | 7 | 1 | `sha256-ed3ee1b889d0eeb98b472fe70e016c59b05164c834ddf284d2298c8b9f873b93` | [semaphore.md](semaphore.md) |
-| `golang.org/x/sync/singleflight` | 12 | 0 | `sha256-95ea7063a3b0972451062f3b2ab9678255ef9744d93b18bcf1118082366acf86` | [singleflight.md](singleflight.md) |
-| `golang.org/x/sync/syncmap` | 3 | 0 | `sha256-3686b75eac2364f2fadd04e3033c88d9db7021d3f43676a0dd7605eedb64764b` | [syncmap.md](syncmap.md) |
+| `golang.org/x/sync/errgroup` | 5 | 0 | `sha256-2d5245d3d9f74be7f06b3e9d0d827c0a15d767f15de31cb0013b98b7966b8957` | [errgroup.md](errgroup.md) |
+| `golang.org/x/sync/semaphore` | 7 | 1 | `sha256-06b6c5369c6e395ab2774aac088009c6108fbfb728878c3bb69f1a54e0eb85a8` | [semaphore.md](semaphore.md) |
+| `golang.org/x/sync/singleflight` | 12 | 0 | `sha256-b85c01a36e219c33640bf644cb72b90c0c1bf4d83a5949e19ddb65092d6e713d` | [singleflight.md](singleflight.md) |
+| `golang.org/x/sync/syncmap` | 3 | 0 | `sha256-120753023da1a8baf5ef79c74cc39df205874bcfa5c86fb8ad092c1cafa0ad14` | [syncmap.md](syncmap.md) |
 
 **Total: 27 matched · 1 disclosed** across 4 package(s).
 

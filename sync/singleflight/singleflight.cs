@@ -15,7 +15,7 @@ using go.runtime;
 
 partial class singleflight_package {
 
-internal static error errGoexit = errors.New("runtime.Goexit was called"u8);
+internal static error errGoexit = errors.New("runtime.Goexit was called");
 
 partial struct panicError {
     internal any value;
